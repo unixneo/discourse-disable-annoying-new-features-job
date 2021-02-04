@@ -11,13 +11,15 @@ PLUGIN_NAME = "discourse-disable-annoying-new-features-job"
 
 after_initialize do
   module Jobs
+
     class CheckNewFeatures.class_eval do
-      every l.year
+      every 1.day
 
       def execute(args)
+        puts "CheckNewFeatures Job disabled"
       end
-
     end
+
   end
 end
 
