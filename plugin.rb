@@ -12,11 +12,11 @@ PLUGIN_NAME = "discourse-disable-annoying-new-features-job"
 after_initialize do
   module Jobs
 
-    class CheckNewFeatures.class_eval do
-      every 1.day
+    CheckNewFeatures.class_eval do
+      every 1.year
 
       def execute(args)
-        puts "CheckNewFeatures Job disabled by plugin"
+        puts "Annoying CheckNewFeatures Job disabled by plugin"
       end
     end
 
