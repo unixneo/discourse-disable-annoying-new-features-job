@@ -14,7 +14,8 @@ after_initialize do
     class CheckNewFeatures.class_eval do
       every l.year
 
-      def execute(args);end
+      def execute(args)
+      end
 
     end
   end
