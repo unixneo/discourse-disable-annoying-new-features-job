@@ -2,7 +2,7 @@
 
 # name: discourse-disable-annoying-new-features-job
 # about: plugin to disable annoying job
-# version: 0.0.2
+# version: 0.0.3
 # date: 4 January 2020
 # authors: Neo
 # url: https://github.com/unixneo/discourse-disable-annoying-new-features-job
@@ -16,7 +16,7 @@ after_initialize do
       every 1.day
 
       def execute(args)
-        puts "CheckNewFeatures Job disabled"
+        puts "CheckNewFeatures Job disabled by plugin"
       end
     end
 
