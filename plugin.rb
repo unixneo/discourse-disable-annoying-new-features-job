@@ -2,7 +2,7 @@
 
 # name: discourse-disable-annoying-new-features-job
 # about: plugin to disable annoying job
-# version: 0.0.3
+# version: 0.0.4
 # date: 4 January 2020
 # authors: Neo
 # url: https://github.com/unixneo/discourse-disable-annoying-new-features-job
