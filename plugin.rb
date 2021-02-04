@@ -27,7 +27,7 @@ after_initialize do
   module DiscourseUpdates
     class_eval do
       def perform_new_feature_check
-        puts "Annoying CheckNewFeatures Method disabled by plugin"
+        puts "Annoying CheckNewFeatures perform_new_feature_check method disabled by plugin"
       end  
     end
   end
