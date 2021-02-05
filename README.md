@@ -1,4 +1,4 @@
-# discourse-disable-annoying-new-features-job
+# discourse-disable-annoying-new-features-notice
 
 #### What Does this Plugin Go
 
