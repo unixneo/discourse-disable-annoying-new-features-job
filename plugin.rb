@@ -2,7 +2,7 @@
 
 # name: discourse-disable-annoying-new-features-notice
 # about: plugin to disable annoying new features notice in admin dashboard
-# version: 0.128
+# version: 0.129
 # date: 4 March 2020
 # authors: Neo
 # url: https://github.com/unixneo/discourse-disable-annoying-new-features-notice.git
@@ -26,7 +26,7 @@ after_initialize do
               has_unseen_features: false,
               release_notes_link: AdminDashboardGeneralData.fetch_cached_stats["release_notes_link"]
             }
-            render json: dataend
+            render json: data
           end
         end
 
