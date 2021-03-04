@@ -1,3 +1,5 @@
 en:
   site_settings:
     enable_disable_annoying_new_features_notice: "Enable the discourse-disable-annoying-new-features-notice plugin"
+    disable_new_features_dismissable_notice: "Disable the dismissable new features notice"
+    disable_new_features_fixed_notice: "Disable the fixed new features notice"
