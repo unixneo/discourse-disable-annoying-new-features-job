@@ -1,0 +1,3 @@
+en:
+  site_settings:
+    enable_disable_annoying_new_features_notice: "Enable the discourse-disable-annoying-new-features-notice plugin"
