@@ -12,6 +12,10 @@ PLUGIN_NAME = "discourse-disable-annoying-new-features-notice"
 after_initialize do
   Admin::DashboardController.class_eval do
     before_action :mark_annoying_new_features_as_seen
+
+    
+    def new_features;end
+
     private 
     def mark_annoying_new_features_as_seen
       DiscourseUpdates.mark_new_features_as_seen(current_user.id)
