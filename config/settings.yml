@@ -1,13 +1,7 @@
 plugins:
   enable_disable_annoying_new_features_notice:
-    client: true
     default: true
-    refresh: true
   disable_new_features_dismissable_notice:
-    client: true
     default: true
-    refresh: true
   disable_new_features_fixed_notice:
-    client: true
     default: true
-    refresh: true
