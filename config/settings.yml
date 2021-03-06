@@ -1,5 +1,5 @@
 plugins:
-  enable_disable_annoying_new_features_notice:
+  enable_disable_new_features_notice:
     default: true
   disable_new_features_dismissable_notice:
     default: true
