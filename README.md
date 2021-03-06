@@ -6,4 +6,4 @@ This simple configurable Discourse plugin marks the "new features" notice in the
 
 See Also:
 
-https://community.unix.com/t/discourse-disable-annoying-new-features-notice-plugin/381654
+https://community.unix.com/t/discourse-disable-new-features-notice-plugin/381654
